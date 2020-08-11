@@ -1,0 +1,14 @@
+datasource db {
+  provider = "postgresql"
+  url = "***"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Reading {
+  id        Int      @default(autoincrement()) @id
+  createdAt DateTime @default(now())
+  value     Float
+}
