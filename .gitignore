@@ -1,2 +1,4 @@
 # Sensitive files
 **/*.env
+node_modules
+.vscode
