@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { PrismaClient, Reading } from "@prisma/client";
+import { RequestMethod, ApiResponse } from "../types";
 
 const prisma = new PrismaClient();
 

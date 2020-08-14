@@ -1,10 +1,10 @@
-type ApiResponse<T = object> = {
-  status: int;
+export type ApiResponse<T = object> = {
+  status: number;
   message?: string;
   data?: T;
 };
 
-enum RequestMethod {
+export enum RequestMethod {
   POST = "POST",
   GET = "GET",
   PUT = "PUT",
