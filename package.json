@@ -1,8 +1,8 @@
 {
   "name": "water-meter-reader",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A water meter reader to track personal daily water usage.",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +22,7 @@
     "@types/react": "^16.9.46",
     "next": "^9.5.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "swr": "^0.3.0"
   }
 }
